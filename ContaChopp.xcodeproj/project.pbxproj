@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26F765A15589B490001EDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26F765915589B490001EDBE /* UIKit.framework */; };
+		C26F765C15589B490001EDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26F765B15589B490001EDBE /* Foundation.framework */; };
+		C26F765E15589B490001EDBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26F765D15589B490001EDBE /* CoreGraphics.framework */; };
+		C26F766415589B490001EDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C26F766215589B490001EDBE /* InfoPlist.strings */; };
+		C26F766615589B490001EDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F766515589B490001EDBE /* main.m */; };
+		C26F766A15589B490001EDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F766915589B490001EDBE /* AppDelegate.m */; };
+		C26F766D15589B490001EDBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F766C15589B490001EDBE /* ViewController.m */; };
+		C26F767015589B490001EDBE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26F766E15589B490001EDBE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C26F765515589B490001EDBE /* ContaChopp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContaChopp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F765915589B490001EDBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C26F765B15589B490001EDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C26F765D15589B490001EDBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C26F766115589B490001EDBE /* ContaChopp-Info.plist */ = {isa = PBXFileReference; path = "ContaChopp-Info.plist"; sourceTree = "<group>"; };
+		C26F766315589B490001EDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C26F766515589B490001EDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26F766715589B490001EDBE /* ContaChopp-Prefix.pch */ = {isa = PBXFileReference; path = "ContaChopp-Prefix.pch"; sourceTree = "<group>"; };
+		C26F766815589B490001EDBE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26F766915589B490001EDBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26F766B15589B490001EDBE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C26F766C15589B490001EDBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C26F766F15589B490001EDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26F765215589B490001EDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F765A15589B490001EDBE /* UIKit.framework in Frameworks */,
+				C26F765C15589B490001EDBE /* Foundation.framework in Frameworks */,
+				C26F765E15589B490001EDBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26F764A15589B490001EDBE = {
+			isa = PBXGroup;
+			children = (
+				C26F765F15589B490001EDBE /* ContaChopp */,
+				C26F765815589B490001EDBE /* Frameworks */,
+				C26F765615589B490001EDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26F765615589B490001EDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26F765515589B490001EDBE /* ContaChopp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26F765815589B490001EDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C26F765915589B490001EDBE /* UIKit.framework */,
+				C26F765B15589B490001EDBE /* Foundation.framework */,
+				C26F765D15589B490001EDBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C26F765F15589B490001EDBE /* ContaChopp */ = {
+			isa = PBXGroup;
+			children = (
+				C26F766815589B490001EDBE /* AppDelegate.h */,
+				C26F766915589B490001EDBE /* AppDelegate.m */,
+				C26F766B15589B490001EDBE /* ViewController.h */,
+				C26F766C15589B490001EDBE /* ViewController.m */,
+				C26F766E15589B490001EDBE /* ViewController.xib */,
+				C26F766015589B490001EDBE /* Supporting Files */,
+			);
+			path = ContaChopp;
+			sourceTree = "<group>";
+		};
+		C26F766015589B490001EDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26F766115589B490001EDBE /* ContaChopp-Info.plist */,
+				C26F766215589B490001EDBE /* InfoPlist.strings */,
+				C26F766515589B490001EDBE /* main.m */,
+				C26F766715589B490001EDBE /* ContaChopp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26F765415589B490001EDBE /* ContaChopp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26F767315589B490001EDBE /* Build configuration list for PBXNativeTarget "ContaChopp" */;
+			buildPhases = (
+				C26F765115589B490001EDBE /* Sources */,
+				C26F765215589B490001EDBE /* Frameworks */,
+				C26F765315589B490001EDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContaChopp;
+			productName = ContaChopp;
+			productReference = C26F765515589B490001EDBE /* ContaChopp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26F764C15589B490001EDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C26F764F15589B490001EDBE /* Build configuration list for PBXProject "ContaChopp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C26F764A15589B490001EDBE;
+			productRefGroup = C26F765615589B490001EDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26F765415589B490001EDBE /* ContaChopp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26F765315589B490001EDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F766415589B490001EDBE /* InfoPlist.strings in Resources */,
+				C26F767015589B490001EDBE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26F765115589B490001EDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F766615589B490001EDBE /* main.m in Sources */,
+				C26F766A15589B490001EDBE /* AppDelegate.m in Sources */,
+				C26F766D15589B490001EDBE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C26F766215589B490001EDBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26F766315589B490001EDBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C26F766E15589B490001EDBE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26F766F15589B490001EDBE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26F767115589B490001EDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C26F767215589B490001EDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26F767415589B490001EDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContaChopp/ContaChopp-Prefix.pch";
+				INFOPLIST_FILE = "ContaChopp/ContaChopp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C26F767515589B490001EDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContaChopp/ContaChopp-Prefix.pch";
+				INFOPLIST_FILE = "ContaChopp/ContaChopp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26F764F15589B490001EDBE /* Build configuration list for PBXProject "ContaChopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F767115589B490001EDBE /* Debug */,
+				C26F767215589B490001EDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26F767315589B490001EDBE /* Build configuration list for PBXNativeTarget "ContaChopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F767415589B490001EDBE /* Debug */,
+				C26F767515589B490001EDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26F764C15589B490001EDBE /* Project object */;
+}
